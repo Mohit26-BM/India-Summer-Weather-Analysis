@@ -30,7 +30,7 @@ To explore the dashboard:
 
 ## 📷 Preview
 
-![Dashboard](images/dashboard/main_dashboard.png)
+![Dashboard](Images/Dashboard/main_dashboard.png)
 
 ---
 
