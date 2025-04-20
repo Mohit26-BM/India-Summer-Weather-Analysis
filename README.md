@@ -1,25 +1,63 @@
-# ☀️ India Summer Weather Analysis Dashboard
+# 🌞 Summers in India: Analysis and Insights - Dashboard
 
-This project presents an interactive dashboard built using Tableau to analyze and visualize weather patterns across various Indian cities during summer. The data was processed using PostgreSQL and visualized through dynamic charts and KPIs.
+This interactive **Tableau** dashboard provides a detailed analysis of summer weather patterns across key Indian cities from **April 1, 2012 to June 30, 2021**. The data is sourced and queried using **PostgreSQL**, offering real-time insights into temperature, humidity, weather conditions, and more.
 
-## 📁 Project Structure
+## 📊 Dashboard Overview
 
-├── data/ # Dataset used for analysis │ └── Indian Summers - Over the years.csv ├── PostgreSQL/ # SQL queries for data processing │ ├── Main_Queries.sql │ └── Summer_queries_1.sql ├── workbook/ # Tableau dashboard file │ └── India_Summers.twb ├── Images/ # Screenshots of dashboard and queries │ ├── main_dashboard.png │ └── charts.png └── README.md
+### ✅ Key Metrics Summary
+- **Total Days Analyzed**: 13,514 days
+- **Average Temperature**: 31.1°C
+- **Feels Like Temperature**: 33.7°C
+- **Average Humidity**: 54.7%
+- **Average Wind Speed**: 20.1 km/h
 
+## 📈 Visual Components
 
-## 📊 Dashboard Features
+### 1. **Average Temperature Trend**
+- Year-wise temperature trends (2012–2021) by city using line graphs.
 
-- Clear vs Rainy Days comparison (Donut Chart)
-- Box plot showing temperature distribution
-- KPIs: Average temperature, humidity, wind, and more
-- Filterable by city with dynamic query support
-- Clean and responsive layout with consistent formatting
+### 2. **Humidity Trends**
+- Bar chart comparing average humidity levels across cities.
+- Highest: **Kolkata**, **Mumbai**, **Surat**
 
-## 🛠 Tools Used
+### 3. **Temperature Distribution**
+- Box plots show temperature variability across cities.
 
-- PostgreSQL (Data Preparation)
-- Tableau (Visualization & Dashboard)
-- Git & GitHub (Version Control)
+### 4. **Monthly Temperature Table**
+- April, May, June average temperatures per city.
+
+### 5. **Weather Conditions (Pie Chart)**
+- Distribution of summer days by condition:
+  - Clear: **57.58%**
+  - Partially Cloudy: **28.73%**
+  - Overcast: **11.14%**
+  - Rain & Mixed Conditions: Remaining %
+
+## 🔍 Filter Options
+
+- **City Selector**: 16 major cities including Delhi, Mumbai, Bengaluru, Chennai, etc.
+- **Condition Filter**: Clear, Overcast, Partially Cloudy, Rain, and combinations
+- **Time Range Slider**: Adjustable between April 2012 – June 2021
+  
+## 🧰 Tools & Technologies
+
+- **Tableau**: For interactive visual analytics
+- **PostgreSQL**: Backend data storage and SQL querying
+
+## 📌 Use Cases
+
+- **Climate Research**
+- **Urban Planning**
+- **Environmental Studies**
+- **Data Visualization Projects**
+
+---
+
+## 📁 Files
+
+- Tableau Workbook: `India_Summers.twb` 
+- SQL Scripts: PostgreSQL queries for data extraction
+
 
 ## 🚀 Getting Started
 
