@@ -1,7 +1,7 @@
 # 🌞 Summers in India: Analysis and Insights - Dashboard
 
 This interactive **Tableau** dashboard provides a detailed analysis of summer weather patterns across key Indian cities from **April 1, 2012 to June 30, 2021**. The data is sourced and queried using **PostgreSQL**, offering real-time insights into temperature, humidity, weather conditions, and more.
-
+ 
 ## 📊 Dashboard Overview
 
 ### ✅ Key Metrics Summary
@@ -51,11 +51,26 @@ This interactive **Tableau** dashboard provides a detailed analysis of summer we
 - **Environmental Studies**
 - **Data Visualization Projects**
 
-## 📁 Files
+##  📁 Repository Structure
 
-- Tableau Workbook: `India_Summers.twb` 
-- SQL Scripts: PostgreSQL queries for data extraction
-
+├── Dataset/
+│   └── Indian Summers - Over the years.csv
+│
+├── Images/
+│   ├── Dashboard/
+│   │   ├── main_dashboard.png
+│   │   ├── filter_usage.png
+│   │   └── filter_use_ahmedabad.png
+│   └── Queries/
+│       ├── KPIs.png
+│       └── charts.png
+│
+├── PostgreSQL/
+│   ├── Main_Queries.sql
+│   └── Summer_queries_1.sql
+│
+├── Workbook/
+│   └── India_Summers.twb
 
 ## 🚀 Getting Started
 
