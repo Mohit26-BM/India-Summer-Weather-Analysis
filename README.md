@@ -51,8 +51,6 @@ This interactive **Tableau** dashboard provides a detailed analysis of summer we
 - **Environmental Studies**
 - **Data Visualization Projects**
 
----
-
 ## 📁 Files
 
 - Tableau Workbook: `India_Summers.twb` 
