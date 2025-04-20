@@ -1,58 +1,13 @@
-# 🌞 Summers in India: Analysis and Insights - Dashboard
 
-This interactive **Tableau** dashboard provides a detailed analysis of summer weather patterns across key Indian cities from **April 1, 2012 to June 30, 2021**. The data is sourced and queried using **PostgreSQL**, offering real-time insights into temperature, humidity, weather conditions, and more.
- 
-## 📊 Dashboard Overview
+# 🌞 Summers in India: Analysis and Insights - Tableau Dashboard
 
-### ✅ Key Metrics Summary
-- **Total Days Analyzed**: 13,514 days
-- **Average Temperature**: 31.1°C
-- **Feels Like Temperature**: 33.7°C
-- **Average Humidity**: 54.7%
-- **Average Wind Speed**: 20.1 km/h
+This repository contains a Tableau dashboard project that provides detailed insights into summer weather conditions across major Indian cities from **April 1, 2012 to June 30, 2021**. The project uses **PostgreSQL** for data handling and **Tableau** for data visualization.
 
-## 📈 Visual Components
+---
 
-### 1. **Average Temperature Trend**
-- Year-wise temperature trends (2012–2021) by city using line graphs.
+## 📁 Repository Structure
 
-### 2. **Humidity Trends**
-- Bar chart comparing average humidity levels across cities.
-- Highest: **Kolkata**, **Mumbai**, **Surat**
-
-### 3. **Temperature Distribution**
-- Box plots show temperature variability across cities.
-
-### 4. **Monthly Temperature Table**
-- April, May, June average temperatures per city.
-
-### 5. **Weather Conditions (Pie Chart)**
-- Distribution of summer days by condition:
-  - Clear: **57.58%**
-  - Partially Cloudy: **28.73%**
-  - Overcast: **11.14%**
-  - Rain & Mixed Conditions: Remaining %
-
-## 🔍 Filter Options
-
-- **City Selector**: 15 major cities including Delhi, Mumbai, Bengaluru, Chennai, etc.
-- **Condition Filter**: Clear, Overcast, Partially Cloudy, Rain, and combinations
-- **Time Range Slider**: Adjustable between April 2012 – June 2021
-  
-## 🧰 Tools & Technologies
-
-- **Tableau**: For interactive visual analytics
-- **PostgreSQL**: Backend data storage and SQL querying
-
-## 📌 Use Cases
-
-- **Climate Research**
-- **Urban Planning**
-- **Environmental Studies**
-- **Data Visualization Projects**
-
-##  📁 Repository Structure
-
+```
 ├── Dataset/
 │   └── Indian Summers - Over the years.csv
 │
@@ -71,17 +26,87 @@ This interactive **Tableau** dashboard provides a detailed analysis of summer we
 │
 ├── Workbook/
 │   └── India_Summers.twb
-
-## 🚀 Getting Started
-
-To explore the dashboard:
-1. Open `workbook/India_Summers.twb` in Tableau.
-2. Connect it to your PostgreSQL DB or explore with static views.
-3. Use filters and interact with visualizations.
-
-## 📷 Preview
-
-![Dashboard](Images/Dashboard/main_dashboard.png)
+```
 
 ---
 
+## 📊 Dashboard Highlights
+
+![Main Dashboard](Images/Dashboard/main_dashboard.png)
+
+### ✅ Key Metrics
+- **Total Days Analyzed**: 13,514
+- **Average Temperature**: 31.1°C
+- **Feels Like Temperature**: 33.7°C
+- **Humidity**: 54.7%
+- **Wind Speed**: 20.1 km/h
+
+### 📈 Visualizations Include:
+- **Yearly Average Temperature Trends** (2012–2021)
+- **City-wise Humidity Comparisons**
+- **Temperature Distribution (Box Plots)**
+- **Monthly Temperature Averages**
+- **Weather Condition Breakdown (Pie Chart)**
+
+---
+
+## 🔍 Filter Features
+
+- **City Selector** (16 cities)
+- **Condition Filter** (Clear, Overcast, Rain, etc.)
+- **Date Range Slider** (April 2012 to June 2021)
+
+Visual examples:
+- ![Using Filters](Images/Dashboard/filter_usage.png)
+- ![City Filter - Ahmedabad](Images/Dashboard/filter_use_ahmedabad.png)
+
+---
+
+## 🛠️ Tools & Technologies
+
+| Tool         | Purpose                         |
+|--------------|----------------------------------|
+| **Tableau**  | Visualization and Dashboarding   |
+| **PostgreSQL** | Data querying and filtering     |
+| **CSV Dataset** | Source data (cleaned and processed) |
+
+---
+
+## 🧪 SQL Query Snapshots
+
+- ![KPIs](Images/Queries/KPIs.png)
+- ![Charts](Images/Queries/charts.png)
+
+Explore actual SQL logic in the [`PostgreSQL/`](./PostgreSQL) folder:
+- `Main_Queries.sql` – All major query definitions
+- `Summer_queries_1.sql` – Supporting queries for visuals
+
+---
+
+## 📂 Tableau Workbook
+
+Located in [`Workbook/`](./Workbook):
+- `India_Summers.twb` – Tableau workbook (open with Tableau Desktop)
+
+---
+
+## 📌 Use Cases
+
+- Analyze Indian summer climate trends over a decade
+- Understand regional variations in heat, humidity, and weather
+- Learn Tableau and SQL through a real-world case study
+
+---
+
+## 📥 Getting Started
+
+1. Clone this repo.
+2. Load `Indian Summers - Over the years.csv` into PostgreSQL.
+3. Run queries from `PostgreSQL/` to build views or tables.
+4. Open `India_Summers.twb` in Tableau and connect to your PostgreSQL DB.
+
+---
+
+## 📝 License
+
+This project is for educational and analytical purposes. Free to use with attribution.
