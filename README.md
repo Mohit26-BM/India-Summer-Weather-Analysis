@@ -35,7 +35,7 @@ This interactive **Tableau** dashboard provides a detailed analysis of summer we
 
 ## 🔍 Filter Options
 
-- **City Selector**: 16 major cities including Delhi, Mumbai, Bengaluru, Chennai, etc.
+- **City Selector**: 15 major cities including Delhi, Mumbai, Bengaluru, Chennai, etc.
 - **Condition Filter**: Clear, Overcast, Partially Cloudy, Rain, and combinations
 - **Time Range Slider**: Adjustable between April 2012 – June 2021
   
