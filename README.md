@@ -52,7 +52,7 @@ This repository contains a Tableau dashboard project that provides detailed insi
 
 ## 🔍 Filter Features
 
-- **City Selector** (16 cities)
+- **City Selector** (15 cities)
 - **Condition Filter** (Clear, Overcast, Rain, etc.)
 - **Date Range Slider** (April 2012 to June 2021)
 
