@@ -107,6 +107,3 @@ Located in [`Workbook/`](./Workbook):
 
 ---
 
-## 📝 License
-
-This project is for educational and analytical purposes. Free to use with attribution.
