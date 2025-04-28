@@ -3,8 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-# Load Data
-file_path = r"C:\Program Files\PostgreSQL\17\data\Indian Summers - Over the years.csv"
+file_path = r"C:\Program Files\PostgreSQL\17\data\Indian Summers - Over the years.csv" # Change your path accordingly!
 df = pd.read_csv(file_path)
 
 # --- DATA EXPLORATION BEFORE CLEANING ---
@@ -28,7 +27,7 @@ print(missing_summary)
 
 # --- DATA CLEANING ---
 
-# 1. Standardize column names (lowercase, underscores)
+# 1. Standardize column names
 df.columns = df.columns.str.lower().str.replace(" ", "_")
 
 # 2. Convert 'date' to datetime
@@ -37,11 +36,11 @@ df["date"] = pd.to_datetime(df["date"], errors="coerce")
 # 3. Remove duplicate rows
 df.drop_duplicates(inplace=True)
 
-# 5. Handle missing values
+# 4. Handle missing values
 # Drop rows where crucial fields are missing
 df.dropna(subset=["date", "temp", "humidity", "tempmax", "tempmin"], inplace=True)
 
-# Fill missing numeric columns with their mean
+# 5.  Fill missing numeric columns with their mean
 num_cols = df.select_dtypes(include="number").columns
 df[num_cols] = df[num_cols].apply(lambda x: x.fillna(x.mean()))
 
