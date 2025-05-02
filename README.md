@@ -1,7 +1,7 @@
 
 # 🌞 Summers in India: Analysis and Insights - Tableau Dashboard
 
-This repository contains a Tableau dashboard project that provides detailed insights into summer weather conditions across major Indian cities from **April 1, 2012 to June 30, 2021**. The project uses **Python** for Data Cleaning ,**PostgreSQL** for data handling and **Tableau** for data visualization.
+This repository contains a Tableau dashboard project that provides detailed insights into summer weather conditions across major Indian cities from **April 1, 2012 to June 30, 2021**. The project uses **PostgreSQL** for data handling and **Tableau** for data visualization.
 
 ---
 
@@ -69,7 +69,6 @@ Visual examples:
 | **Tableau**  | Visualization and Dashboarding   |
 | **PostgreSQL** | Data querying and filtering     |
 | **CSV Dataset** | Source data (cleaned and processed) |
-| **Project.py**  | Python file                         |
 ---
 
 ## 🧪 SQL Query Snapshots
